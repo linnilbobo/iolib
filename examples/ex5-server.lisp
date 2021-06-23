@@ -54,7 +54,7 @@
               ;; ...and handle the connection!
               (when client
                 (make-thread #'process-ex5-client-thread
-                             :name 'process-ex5-client-thread))))
+                             :name "process-ex5-client-thread"))))
       ;; ex-2e
 
       ;; ex-3b
